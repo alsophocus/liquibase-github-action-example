@@ -20,6 +20,7 @@ create table company (
     city varchar(30)
 )
 
+
 --changeset yarson:yarson1
 --rollback ALTER TABLE person DROP COLUMN country;
 alter table person add column country varchar(2)
